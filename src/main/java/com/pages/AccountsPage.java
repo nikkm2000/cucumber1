@@ -13,6 +13,10 @@ public class AccountsPage {
 	private WebDriver driver;
 	private By accountSections = By.cssSelector("div#center_column span");	
 	
+	public void m1() {
+		System.out.println("testing 1");
+	}
+	
 	public AccountsPage(WebDriver driver) {
 		this.driver = driver;
 	}
